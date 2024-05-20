@@ -2,10 +2,8 @@ package nested;
 
 public class ShdowingMain {
     public int value = 1;
-
     class Inner {
         public int value = 2;
-
         void go() {
             int value = 3;
             System.out.println("value = " + value);
