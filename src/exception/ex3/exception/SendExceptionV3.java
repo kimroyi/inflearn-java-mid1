@@ -1,7 +1,5 @@
 package exception.ex3.exception;
 
-import exception.ex3.NetworkClientExceptionV3;
-
 public class SendExceptionV3 extends NetworkClientExceptionV3 {
 
     private final String sendData;
